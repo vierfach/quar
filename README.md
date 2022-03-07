@@ -15,16 +15,14 @@ $ `git clone https://github.com/drquadriple/quar`
 
 $ `cd quar`
 
-$ `chmod +x quar/quar_install.sh quar/quar_remove.sh`
+$ `chmod +x quar.sh`
 
 -----------
 how to use:
 -----------
 
-$ `cd quar`
+$ `quar -S` to install AUR packages
 
-$ `./quar_install` to install AUR packages
-
-$ `./quar_remove` to remove AUR packages
+$ `quar -R` to remove AUR packages
 
 $ have fun
