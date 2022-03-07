@@ -6,6 +6,8 @@ two shell scripts that can install and remove aur packages that were just made f
 
 be sure to make them executable!
 
+credits: https://github.com/IdekTheMaster/
+
 -------------
 installation:
 -------------
