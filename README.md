@@ -11,12 +11,19 @@ be sure to make them executable!
 installation:
 
 $ git clone https://github.com/drquadriple/quar
+
 $ cd quar
+
 $ chmod +x quar/quar_install.sh quar_remove.sh
+
 
 how to use:
 
+
 $ cd quar
+
 $ ./quar_install to install
+
 $ ./quar_remove to remove
+
 $ have fun
