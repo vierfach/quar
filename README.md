@@ -7,18 +7,17 @@ two shell scripts that can install and remove aur packages that were just made f
 be sure to make them executable!
 
 --
-
 installation:
-
+--
 $ git clone https://github.com/drquadriple/quar
 
 $ cd quar
 
-$ chmod +x quar/quar_install.sh quar_remove.sh
+$ chmod +x quar/quar_install.sh quar/quar_remove.sh
 
-
+-----------
 how to use:
-
+-----------
 
 $ cd quar
 
