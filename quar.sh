@@ -17,6 +17,7 @@
 #! /bin/bash
 while getopts S:R: options; do
         case $options in
+                #installation
                 S) x=$OPTARG
                 if [[ -d ~/.cache/quar/ ]]; then
                 cd ~/.cache/quar/
