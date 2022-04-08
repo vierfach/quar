@@ -40,8 +40,10 @@ while getopts S:R: options; do
                 R) y=$OPTARG
                 if [[ -e /usr/bin/sudo ]]; then
                 sudo pacman -R ${y}
+                rm -rf ~/.cache/quar/${y}
                 else
                 doas pacman -R ${y}
+                rm -rf ~/.cache/quar/${y}
                 fi
                 echo -n '- Removal complete.\n'
                 ;;
