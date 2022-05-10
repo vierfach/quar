@@ -27,4 +27,4 @@ $ `./quar -R` to remove AUR packages
 
 $ have fun
 
-*(warning: can only be used when inside of the dir. that quar was installed in; use at your own risk btw)*
+*(note: you have to be in the same dir where quar installed, unless you put it in your `/usr/bin` directory!)*
