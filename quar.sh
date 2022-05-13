@@ -5,7 +5,7 @@ while getopts S:R: options; do
                 S) x=$OPTARG
                 if [[ -d ~/.cache/quar/ ]]; then
                 cd ~/.cache/quar/
-                if [[ -d ~/.cache/quar/${x} ]]; then
+                elif [[ -d ~/.cache/quar/${x} ]]; then
                 rm -rf ~/.cache/quar/${x}
                 fi
                 git clone https://aur.archlinux.org/${x}
@@ -22,11 +22,7 @@ while getopts S:R: options; do
                 ;;
                 #removal
                 R) y=$OPTARG
-                if [[ -e /usr/bin/sudo ]]; then
-                sudo pacman -R ${y}
-                rm -rf ~/.cache/quar/${y}
-                else
-                doas pacman -R ${y}
+                su -c pacman -R ${y}
                 rm -rf ~/.cache/quar/${y}
                 fi
                 echo -n '- Removal complete.\n'
