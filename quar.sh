@@ -18,14 +18,18 @@ while getopts S:R: options; do
                 cd ~/.cache/quar/${x}
                 makepkg -si
                 fi
-                echo -n '- Installation Complete.\n'
+                echo -n '- Installation Complete.'
                 ;;
                 #removal
                 R) y=$OPTARG
                 su -c pacman -R ${y}
                 rm -rf ~/.cache/quar/${y}
-                fi
-                echo -n '- Removal complete.\n'
+                echo -n '- Removal Complete.'
+		#purge
+		Rns) z=$OPTARG
+		su -c pacman -Rns ${z}
+		rm -rf ~/.cache/quar/${z}
+		echo -n '- Purge Complete.'
                 ;;
         esac
 done
