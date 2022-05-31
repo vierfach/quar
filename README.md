@@ -24,6 +24,8 @@ how to use:
 $ `./quar -S` to install AUR packages
 
 $ `./quar -R` to remove AUR packages
+$ `./quar.sh -R` to remove AUR packages
+
 
 $ have fun
 
