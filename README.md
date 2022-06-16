@@ -8,6 +8,7 @@ be sure to make them executable!
 
 bonus contributors: https://github.com/IdekTheMaster/
 
+remember! quar is not complete, expect a rewrite to come out in the near feature!
 -------------
 installation:
 -------------
