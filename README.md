@@ -21,11 +21,11 @@ $ `chmod +x quar.sh`
 how to use:
 -----------
 
-$ `./quar -S` to install AUR packages
+$ `./quar.sh -S` to install AUR packages
 
-$ `./quar -R` to remove AUR packages
 $ `./quar.sh -R` to remove AUR packages
 
+$ `./quar.sh -Rns` to purge AUR packages (wip feature)
 
 $ have fun
 
