@@ -1,12 +1,5 @@
 # quar
-A shitty AUR helper with a very small amount of features that was created in 20 minutes for the sole purpose of doing something interesting with my life.
-
-it's in the fucking description;
-two shell scripts that can install and remove aur packages that were just made for fun, it IS plenty lighter than paru or yay, so do whatever you want.
-
-be sure to make them executable!
-
-bonus contributors: https://github.com/IdekTheMaster/
+A lightweight AUR (Arch Linux User Repository) Helper written in POSIX-Compliant Shell.
 
 remember! quar is not complete, expect a rewrite to come out in the near feature!
 -------------
