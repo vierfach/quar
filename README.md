@@ -22,6 +22,4 @@ $ `./quar.sh -R` to remove AUR packages
 
 $ `./quar.sh -Rns` to purge AUR packages (wip feature)
 
-$ have fun
-
 *(note: you have to be in the same dir where quar installed, unless you put it in your `/usr/bin` directory!)*
