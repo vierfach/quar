@@ -12,7 +12,7 @@ $ `cd quar`
 
 $ `chmod +x quar.sh`
 
-optional:
+**optional: (recommended)**
 
 $ `sudo mv quar /usr/bin/`
 
