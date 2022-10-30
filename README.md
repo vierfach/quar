@@ -1,7 +1,7 @@
 # quar
-A lightweight AUR (Arch Linux User Repository) Helper written in POSIX-Compliant Shell.
+a lightweight AUR (arch linux user repository) helper written in POSIX-Compliant shell.
 
-remember! quar is not complete, expect a rewrite to come out in the near feature!
+**!! expect a quar rewrite soon !!**
 
 -------------
 installation:
