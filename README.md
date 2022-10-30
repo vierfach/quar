@@ -12,6 +12,10 @@ $ `cd quar`
 
 $ `chmod +x quar.sh`
 
+optional:
+
+$ `sudo mv quar /usr/bin/`
+
 -----------
 how to use:
 -----------
@@ -21,5 +25,3 @@ $ `./quar.sh -S` to install AUR packages
 $ `./quar.sh -R` to remove AUR packages
 
 $ `./quar.sh -Rns` to purge AUR packages (wip feature)
-
-*(note: you have to be in the same dir where quar installed, unless you put it in your `/usr/bin` directory!)*
